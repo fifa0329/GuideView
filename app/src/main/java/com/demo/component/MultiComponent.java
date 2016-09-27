@@ -12,7 +12,7 @@ import com.demo.guide.R;
 /**
  * Created by binIoter on 16/6/17.
  */
-public class MutiComponent implements Component {
+public class MultiComponent implements Component {
 
   @Override public View getView(LayoutInflater inflater) {
     LinearLayout ll = new LinearLayout(inflater.getContext());

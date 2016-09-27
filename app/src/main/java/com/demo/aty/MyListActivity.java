@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import com.blog.www.guideview.Guide;
 import com.blog.www.guideview.GuideBuilder;
-import com.demo.component.MutiComponent;
+import com.demo.component.MultiComponent;
 import com.demo.guide.R;
 import java.util.ArrayList;
 import java.util.List;
@@ -97,7 +97,7 @@ public class MyListActivity extends Activity {
         }
       });
 
-      builder.addComponent(new MutiComponent());
+      builder.addComponent(new MultiComponent());
       Guide guide = builder.createGuide();
       guide.setShouldCheckLocInWindow(true);
       guide.show((Activity) mContext);

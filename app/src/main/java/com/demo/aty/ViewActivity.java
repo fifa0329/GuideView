@@ -7,7 +7,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 import com.blog.www.guideview.Guide;
 import com.blog.www.guideview.GuideBuilder;
-import com.demo.component.MutiComponent;
+import com.demo.component.MultiComponent;
 import com.demo.guide.R;
 
 /**
@@ -53,7 +53,7 @@ public class ViewActivity extends Activity {
       }
     });
 
-    builder.addComponent(new MutiComponent());
+    builder.addComponent(new MultiComponent());
     guide = builder.createGuide();
     guide.setShouldCheckLocInWindow(true);
     guide.show(this);

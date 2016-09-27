@@ -11,13 +11,13 @@ public class FragActivity extends FragmentActivity {
     setContentView(R.layout.activity_frag);
     switch (getIntent().getIntExtra("fragmentId", -1)) {
       case 0:
-        getSupportFragmentManager().beginTransaction().add(R.id.frame, new MyFragment()).commit();
+        getSupportFragmentManager().beginTransaction().add(R.id.frame, new MyFragment1()).commit();
         break;
       case 1:
         getSupportFragmentManager().beginTransaction().add(R.id.frame, new MyFragment2()).commit();
         break;
       default:
-        getSupportFragmentManager().beginTransaction().add(R.id.frame, new MyFragment()).commit();
+        getSupportFragmentManager().beginTransaction().add(R.id.frame, new MyFragment1()).commit();
     }
   }
 }

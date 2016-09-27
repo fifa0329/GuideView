@@ -24,7 +24,7 @@ public class SimpleComponent implements Component {
   }
 
   @Override public int getAnchor() {
-    return Component.ANCHOR_BOTTOM;
+    return Component.ANCHOR_LEFT;
   }
 
   @Override public int getFitPosition() {
